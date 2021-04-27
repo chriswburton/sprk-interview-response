@@ -1,9 +1,9 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import App from './App'
+import { Login } from './Login'
 
-describe('App', () => {
+describe('Login', () => {
     it('should render successfully', () => {
-        render(<App />)
+        render(<Login />)
     })
 })
